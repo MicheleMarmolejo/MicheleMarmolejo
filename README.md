@@ -2,4 +2,5 @@
 
 This repository contains my personal website, where I showcase my background in EHS and my work in data analytics!!
 
-🌐 Visit the site: https://MicheleMarmolejo.github.io
+Visit [the site: https://MicheleMarmolejo.github.io](https://michelemarmolejo.github.io/MicheleMarmolejo/)
+thxs
