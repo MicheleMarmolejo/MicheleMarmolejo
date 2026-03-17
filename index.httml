@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Michele | EHS & Data</title>
+
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 60px;
+      background-color: #f9f9f9;
+      color: #333;
+    }
+
+    h1 {
+      font-size: 38px;
+    }
+
+    h2 {
+      margin-top: 30px;
+      color: #444;
+    }
+
+    p {
+      font-size: 18px;
+      line-height: 1.6;
+    }
+
+    .container {
+      max-width: 800px;
+    }
+  </style>
+</head>
+
+<body>
+
+<div class="container">
+
+  <h1>print("Hola mundo jeje") 👋</h1>
+
+  <h2>Bienvenidos a mi página web personal, que funciona como mi <b>portafolio</b>.</h2>
+
+  <p>
+    Soy <i>Ingeniera Ambiental</i> con experiencia en el área de EHS (Environmental, Health & Safety).
+    Busco combinar esta experiencia con un enfoque en análisis de datos para mejorar la toma de decisiones
+    y entender mejor lo que ocurre en los procesos.
+  </p>
+
+  <p>
+    Soy versátil en cuanto a las áreas de aplicación del análisis de datos; me interesa explorar distintos
+    contextos y encontrar valor en la información.
+  </p>
+
+  <h2>🚀 Próximamente</h2>
+  <p>Estaré agregando proyectos de análisis de datos y dashboards.</p>
+
+</div>
+
+</body>
+</html>
