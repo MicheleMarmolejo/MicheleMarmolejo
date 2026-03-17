@@ -1,118 +1,173 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title> Michele Marmolejo | EHS & Data Analyst </title>
+<meta charset="UTF-8">
+<title>Michele Marmolejo | EHS & Data Analyst</title>
 
-  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
 
-  <style>
-    body {
-      margin: 0;
-      background-color: #1e1e1e;
-      color: #d4d4d4;
-      font-family: 'Press Start 2P', monospace;
-    }
+<style>
 
-    .container {
-      max-width: 900px;
-      margin: auto;
-      padding: 40px;
-    }
+body {
+  margin: 0;
+  background-color: #181818;
+  color: #d4d4d4;
+  font-family: 'Press Start 2P', monospace;
+}
 
-    h1 {
-      color: #7ecbff;
-      font-size: 22px;
-      margin-bottom: 20px;
-    }
+/* contenedor */
+.container {
+  max-width: 950px;
+  margin: auto;
+  padding: 60px 30px;
+}
 
-    h2 {
-      color: #8bdc8b;
-      margin-top: 40px;
-      font-size: 16px;
-    }
+/* títulos */
+h1 {
+  color: #7ecbff;
+  font-size: 22px;
+  margin-bottom: 30px;
+}
 
-    p {
-      font-size: 12px;
-      line-height: 1.8;
-      color: #cfcfcf;
-    }
+h2 {
+  color: #8bdc8b;
+  margin-top: 60px;
+  font-size: 14px;
+}
 
-    .card {
-      background-color: #2a2a2a;
-      border: 2px solid #3c3c3c;
-      padding: 20px;
-      margin-top: 20px;
-      box-shadow: 4px 4px 0px #000;
-    }
+/* texto */
+p {
+  font-size: 11px;
+  line-height: 1.8;
+  color: #cfcfcf;
+}
 
-    .skills span {
-      display: inline-block;
-      background-color: #3a3a3a;
-      border: 1px solid #555;
-      padding: 8px;
-      margin: 5px;
-      font-size: 10px;
-      color: #9cdcfe;
-    }
+/* tarjetas */
+.card {
+  background: #232323;
+  border: 2px solid #3a3a3a;
+  padding: 25px;
+  margin-top: 20px;
+  box-shadow: 6px 6px 0px #000;
+  transition: 0.2s;
+}
 
-    .highlight {
-      color: #dcdcaa;
-    }
+/* efecto hover retro */
+.card:hover {
+  transform: translate(-3px, -3px);
+  box-shadow: 8px 8px 0px #000;
+}
 
-  </style>
+/* GRID proyectos */
+.projects {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+/* caja proyecto */
+.project-box {
+  background: #202020;
+  border: 2px dashed #444;
+  padding: 30px;
+  text-align: center;
+  color: #777;
+}
+
+/* skills */
+.skill-bar {
+  background-color: #333;
+  border: 2px solid #555;
+  margin-bottom: 15px;
+}
+
+.skill-fill {
+  height: 10px;
+  background-color: #8bdc8b;
+}
+
+/* links */
+a {
+  color: #7ecbff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* highlight */
+.highlight {
+  color: #dcdcaa;
+}
+
+</style>
 </head>
 
 <body>
 
 <div class="container">
 
-  <h1>Michele Marmolejo | EHS & Data Analyst</h1>
+<h1>Michele Marmolejo | EHS & Data Analyst</h1>
 
-  <p>
-    Soy Ingeniera Ambiental con experiencia en <span class="highlight">EHS</span> (Environmental, Health & Safety).
-    Busco combinar esta experiencia con el análisis de datos para mejorar la toma de decisiones
-    y entender mejor lo que ocurre en los procesos.
-  </p>
+<p>
+Soy Ingeniera Ambiental con experiencia en <span class="highlight">EHS</span> (Environmental, Health & Safety).
+Busco combinar esta experiencia con el análisis de datos para mejorar la toma de decisiones
+y entender mejor lo que ocurre en los procesos.
+</p>
 
-  <p>
-    Me interesa explorar distintas áreas donde los datos puedan aportar valor y generar insights accionables.
-  </p>
+<p>
+Me interesa explorar distintas áreas donde los datos puedan aportar valor y generar insights accionables.
+</p>
 
-  <h2>📊 Proyectos</h2>
-  <div class="card">
-    <p>En un futuro próximo (espero) agregaré proyectos de análisis de datos y dashboards.</p>
-  </div>
+<h2>Proyectos</h2>
 
-  <h2>Habilidades</h2>
+<div class="projects">
+  <div class="project-box">Proyecto futuro 1</div>
+  <div class="project-box">Proyecto futuro 2</div>
+  <div class="project-box">Proyecto futuro 3</div>
+</div>
+
+<div class="card">
+  <p>En un futuro próximo (espero) agregaré proyectos de análisis de datos y dashboards.</p>
+</div>
+
+<h2>Habilidades</h2>
 
 <p>Excel</p>
-<p>⭐⭐⭐⭐☆</p>
+<div class="skill-bar"><div class="skill-fill" style="width:90%"></div></div>
 
 <p>Power BI</p>
-<p>⭐☆☆☆☆</p>
+<div class="skill-bar"><div class="skill-fill" style="width:20%"></div></div>
 
 <p>Data Analysis</p>
-<p>⭐☆☆☆☆</p>
+<div class="skill-bar"><div class="skill-fill" style="width:20%"></div></div>
 
 <p>EHS</p>
-<p>⭐⭐⭐⭐⭐</p>
+<div class="skill-bar"><div class="skill-fill" style="width:95%"></div></div>
 
-  <h2>📩 Contacto</h2>
-  <div class="card">
-    </p>correo: justine_m97@hotmail.com</p>
-      </p> </a> href="Linkedin: www.linkedin.com/in/michele-justine-marmolejo-merino-aa8911222" target="_blank"> Mi LinkedIn
-</a> </p>
-  </div>
+<h2>📩 Contacto</h2>
+<div class="card">
+  <p>Correo: justine_m97@hotmail.com</p>
+
+  <p>
+    LinkedIn:
+    <a href="https://www.linkedin.com/in/michele-justine-marmolejo-merino-aa8911222" target="_blank">
+      Ver perfil
+    </a>
+  </p>
+</div>
+
 <h2>📄 CV</h2>
 
 <div class="card">
   <p>Puedes ver o descargar mi CV aquí para alguna oportunidad laboral:</p>
 
-  <a href="MICHELEJUSTINE_MARMOLEJOMERINO_CVULT2026.pdf" target="_blank" style="color:#7ecbff;">
+  <a href="MICHELEJUSTINE_MARMOLEJOMERINO_CVULT2026.pdf" target="_blank">
     Ver a detalle CV
   </a>
 </div>
+
 </div>
 
 </body>
